@@ -1,3 +1,0 @@
-#define MINT_ENABLED
-#define BURN_ENABLED
-#define SET_MINTER_ENABLED
