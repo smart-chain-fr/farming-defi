@@ -72,7 +72,6 @@ function earn_callback(const referral_system_info : referral_info; var s : farmi
           (referral_system_info.receiver, actual_paid)
         ];
 
-        
         operations := Tezos.transaction(
           Mint(mint_data),
           0mutez,
