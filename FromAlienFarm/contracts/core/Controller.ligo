@@ -6,7 +6,6 @@
 function main(const action : controller_action; const s : controller_storage) : controller_return is
   case action of
   | DeployFarming(params)                       -> deploy_farming(params, s)
-  | ChangeReferralSystem(params)                -> change_referral_system(params, s)
   | ChangeFarmAdmin(params)                     -> change_farm_admin(params, s)
   | ChangeRPSAndCoefficient(params)             -> change_rps_and_coefficient(params, s)
   | ChangeAdmin(params)                         -> change_admin(params, s)
