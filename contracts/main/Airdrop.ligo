@@ -7,3 +7,5 @@ function main(const action : airdrop_action; const s : storage) : return is
   | MakeAirdropCallback(params)       -> make_airdrop_callback(params, s)
   | ChangeAdmin(params)               -> change_admin(params, s)
   end
+
+// Airdrop entrypoints
