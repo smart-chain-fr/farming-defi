@@ -1,3 +1,0 @@
-ligo: required argument ENTRY_POINT is missing
-Usage: ligo compile-contract [OPTION]... SOURCE_FILE ENTRY_POINT
-Try `ligo compile-contract --help' or `ligo --help' for more information.
